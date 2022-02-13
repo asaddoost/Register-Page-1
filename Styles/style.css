@@ -30,6 +30,7 @@ P
   width: 350px;
   min-width:200px;
   max-width:350px;
+  height: 80vh;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -62,9 +63,9 @@ P
 input{
   border: 2px solid var(--input-color);
   outline: none;
-  margin: .5rem;
+  margin: .4rem;
   border-radius: 0.5rem;
-  padding: 1rem;
+  padding: .7rem;
   width: 250px;
   min-width: 200px;
   max-width: 300px;
@@ -150,6 +151,7 @@ input:hover {
   min-width: 200px;
   max-width:350px;
   min-height: 500px;
+  height: 60vh;
   padding: 3rem;
   border-radius: 2rem;
   background-color: var(--main-color);
