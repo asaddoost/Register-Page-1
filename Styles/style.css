@@ -31,14 +31,13 @@ P
 }
 #sign-up {
   width: 350px;
-  min-width:250px;
+  min-width:200px;
   max-width:350px;
-  height: 85vh;
+  height: 80vh;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  height: 85vh;
   padding: 1rem;
   border-radius: 2rem;
   background-color: var(--main-color);
@@ -64,33 +63,40 @@ P
   font-size: 1.6rem;
   color: var(--primary-color);
 }
-input {
+input{
   border: 2px solid var(--input-color);
   outline: none;
   margin: .5rem;
   border-radius: 0.5rem;
   padding: 1rem;
-  width: 17vw;
+  width: 250px;
+  min-width: 200px;
+  max-width: 300px;
   background-color: var(--input-color);
   color: var(--white-color);
-  font-size: inherit;
 }
 input:hover {
   border: 2px solid var(--primary-color);
   transition: all 0.5;
 }
-#sign-up input[type="checkbox"] {
-  width: 25px;
-  height: 15px;
-  padding: 0;
-  margin: 0;
-  vertical-align: bottom;
-  position: relative;
-}
 .label-terms {
-  font-size: .90rem;
+  font-size: .9em;
+  width: 70%;
+  margin: 1rem auto;
+  text-align: left;
+}
+#sign-up input[type="checkbox"] {
+  margin: 0;
+  padding: 0;
+  min-width: 15px;
+  max-width: 15px;
+  vertical-align: middle;
+}
+.forgot {
+  font-size: .9em;
   width: 80%;
-  margin-top: 1rem;
+  margin: 1rem auto;
+  text-align: left;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -145,9 +151,10 @@ input:hover {
   justify-content: space-evenly;
   align-items: center;
   width: 350px;
-  min-width: 250px;
+  min-width: 200px;
   max-width:350px;
-  height: 65vh;
+  height: 60vh;
+  min-height: 500px;
   padding: 3rem;
   border-radius: 2rem;
   background-color: var(--main-color);
@@ -190,116 +197,14 @@ input:hover {
 }
 
 /* ------responsive---- */
-/*
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 400px) {
   #sign-up {
-    min-width: 30vw;
-    height: 70vh;
+    width:250px;
+    }
+  #sign-in {
+    width: 250px;
   }
   input {
-    margin: 0.3rem;
-    padding: 0.6rem;
-    width: 20vw;
+    width: 150px;
   }
-  ::placeholder {
-    font-size: 0.7rem;
-  }
-  .label-terms {
-    width: 80%;
-  }
-  .label-terms,
-  #sign-up a {
-    font-size: .8rem;
-  }
-  .sign-link {
-    flex-direction: column;
-    justify-content: center;
-    font-size: 0.8rem;
-  }
-  #sign-in {
-    width: 30vw;
-  }
-  #sign-in .label-terms {
-    font-size: 0.75rem;
-  }
-  #sign-in a {
-    font-size: 0.75rem;
-  }
-  #sign-in .title h1 {
-    font-size: 1.1rem;
-  }
-}
-@media screen and (max-width: 768px) {
-  #sign-up {
-    width: 40vw;
-  }
-  input {
-    margin: 0.1rem;
-    padding: 0.6rem;
-    width: 30vw;
-  }
-  ::placeholder {
-    font-size: 0.75rem;
-  }
-  .sign-link {
-    flex-direction: column;
-    justify-content: center;
-    font-size: 0.8rem;
-  }
-  #sign-up a {
-    font-size: 0.7rem;
-  }
-  .btn {
-    font-size: 0.8rem;
-  }
-  #sign-in {
-    width: 40vw;
-    height: 55vh;
-  }
-  #sign-in .label-terms {
-    display: flex;
-    width: 35vw;
-
-    flex-direction: column;
-  }
-  .sign-link {
-    font-size: .8rem;
-  }
-}
-*/
-@media screen and (max-width: 576px) {
-  #sign-up {
-    width: 65vw;
-  }
-  #sign-up .title h1 {
-    font-size: 1rem;
-  }
-  input {
-    margin: 0.2rem;
-    padding: 0.4rem;
-    width: 40vw;
-  }
-  #sign-in .label-terms,
-  #sign-in .label-terms a {
-    width: 35vw;
-    font-size: .7rem;
-    text-align: center;
-  }
-  .sign-link {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    font-size: 0.7rem;
-    text-align: center;
-  }
-  ::placeholder {
-    font-size: 0.6rem;
-  }
-  #sign-in {
-    width: 55vw;
-  }
-  #sign-in .title h1 {
-    font-size: 1rem;
-  }
-  
-}
+ }

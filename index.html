@@ -12,20 +12,12 @@
       <section id="sign-up">
         <section class="title"><h1>Join Us Now!</h1></section>
         <form action="" class="form-group">
-          <label><input type="email" placeholder="Email" autofocus required/></label>
-          <label><input type="text" placeholder="Username" required/></label>
-          <label><input type="password" placeholder="Password" class="password" required minlength="8"/></label>
-          <label><input type="password" placeholder=" Repeat Your Password" required/></label>
-          <div class="label-terms">
-            <lable><input type="checkbox" required />I agree to the<a href="#"
-                >Terms and Conditions</a
-              ></lable
-            >
-          </div>
-          <br />
-          <div>
+          <label><input type="email" name="email" placeholder="Email" autofocus required/></label>
+          <label><input type="text" name="user-name" placeholder="Username" required/></label>
+          <label><input type="password" name="password" placeholder="Password" class="password" required minlength="6"/></label>
+          <label><input type="password" name="re-password" placeholder=" Repeat Your Password" required/></label>
+          <lable class="label-terms"><input type="checkbox" name="checkbox" required/> I agree with<a href="#">terms and conditions</a></lable>
             <input type="submit" value="Sign Up" class="btn sign-Up-btn" />
-          </div>
         </form>
         <section class="sign-link">
           Already have an account?<a href="./sign-in.html">Sign In</a>
