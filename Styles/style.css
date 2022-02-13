@@ -33,7 +33,7 @@ P
   width: 25vw;
   min-width:350px;
   max-width:350px;
-  max-height: 85vh;
+  height: 85vh;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
