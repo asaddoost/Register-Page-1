@@ -190,6 +190,7 @@ input:hover {
 }
 
 /* ------responsive---- */
+/*
 @media screen and (max-width: 992px) {
   #sign-up {
     min-width: 30vw;
@@ -265,6 +266,7 @@ input:hover {
     font-size: .8rem;
   }
 }
+*/
 @media screen and (max-width: 576px) {
   #sign-up {
     width: 65vw;
