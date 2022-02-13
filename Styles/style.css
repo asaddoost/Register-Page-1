@@ -207,4 +207,8 @@ input:hover {
   input {
     width: 150px;
   }
+  #sign-in .title h1,
+  #sign-up  .title h1 {
+    font-size: 1.2rem;
+  }
  }
