@@ -63,6 +63,9 @@ P
   font-size: 1.6rem;
   color: var(--primary-color);
 }
+label {
+  display: block;
+}
 
 input {
   border: 2px solid var(--input-color);
